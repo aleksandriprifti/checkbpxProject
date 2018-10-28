@@ -1,8 +1,8 @@
 // 
-document.addEventListener('change', buttonClicked);
+document.addEventListener('change', applicationForm);
 
 
-function buttonClicked() {
+function applicationForm() {
     // retrieve all the element of the form
     var checkBoxNodes = document.querySelectorAll('.myClass');
     var inputField = document.querySelector('.inputClass').value;
